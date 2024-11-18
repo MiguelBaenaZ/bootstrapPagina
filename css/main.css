@@ -1,0 +1,33 @@
+.logo{
+    width: 30px;
+}
+.navbar{
+    box-shadow: 2px 2px 2px #000;
+    /*opacity: .9; pone la barra transparente*/
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.main-header{
+    background: url('../img/xbox-one-green-box.jpg');   
+    background-size: cover;/* para que cubra toda la pantalla */
+    height: 500px;/*min-height:500px;width: 100%;*/
+       
+}
+.background-overlay{
+    background: rgba(76, 209, 55,.4);
+    /* para que cubra toda la pantalla min-height: 500px; */
+    background-size: cover;
+    height: 100%;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: table;*/
+}
+header .container{
+    position: absolute;/*display: table-cell;vertical-align: middle;*/
+}
+.team, footer{
+    background: rgba(76, 209, 55,1);
+}
